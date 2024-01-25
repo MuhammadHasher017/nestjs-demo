@@ -58,6 +58,17 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
+## Postman Collection
+
+```bash
+#Postman Collection Link
+https://www.postman.com/orange-equinox-926389/workspace/stp/collection/14334683-3f82ccdf-23fa-49f7-9da3-283252385e0d?action=share&creator=14334683
+```
+
+## ERD Diagram
+
+![Environment Setup](<https://github.com/MuhammadHasher017/nestjs-demo/blob/main/STP-Schema%20Diagram%20(1).png>)
+
 ## Database Setup
 
 This application uses PostgreSQL with TypeORM. Set up your PostgreSQL database with the following credentials:
@@ -90,12 +101,7 @@ BASE_URL="localhost"
 NODE_ENV='development'
 HASH_NUMBER=10
 ```
-## Postman Collection
 
-```bash
-#Postman Collection Link
-https://www.postman.com/orange-equinox-926389/workspace/stp/collection/14334683-3f82ccdf-23fa-49f7-9da3-283252385e0d?action=share&creator=14334683
-```
 ## License
 
 Nest is [MIT licensed](LICENSE).
