@@ -58,15 +58,31 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
-## Support
+## Database Setup
+This application uses PostgreSQL with TypeORM. Set up your PostgreSQL database with the following credentials:
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Host: localhost
+Port: 5432
+Username: postgres
+Password: postgres
+Database Name: postgresstp
+Ensure that PostgreSQL is running on your machine or adjust the credentials in the .env file to match your setup.
 
-## Stay in touch
+## Environment Configuration
+Create a .env file in the root of your project and add the following configurations:
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+makefile
+Copy code
+POSTGRES_HOST='localhost'
+POSTGRES_PORT=5432
+POSTGRES_USERNAME='postgres'
+POSTGRES_PASSWORD='postgres'
+POSTGRES_DATABASE='postgresstp'
+
+PORT=4000
+BASE_URL="localhost"
+NODE_ENV='development'
+HASH_NUMBER=10
 
 ## License
 
