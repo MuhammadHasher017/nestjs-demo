@@ -59,7 +59,10 @@ $ yarn run test:cov
 ```
 
 ## Database Setup
+
 This application uses PostgreSQL with TypeORM. Set up your PostgreSQL database with the following credentials:
+
+```bash
 
 Host: localhost
 Port: 5432
@@ -67,8 +70,12 @@ Username: postgres
 Password: postgres
 Database Name: postgresstp
 Ensure that PostgreSQL is running on your machine or adjust the credentials in the .env file to match your setup.
+```
 
 ## Environment Configuration
+
+```bash
+
 Create a .env file in the root of your project and add the following configurations:
 
 makefile
@@ -78,11 +85,11 @@ POSTGRES_PORT=5432
 POSTGRES_USERNAME='postgres'
 POSTGRES_PASSWORD='postgres'
 POSTGRES_DATABASE='postgresstp'
-
 PORT=4000
 BASE_URL="localhost"
 NODE_ENV='development'
 HASH_NUMBER=10
+```
 
 ## License
 
