@@ -69,7 +69,7 @@ Port: 5432
 Username: postgres
 Password: postgres
 Database Name: postgresstp
-Ensure that PostgreSQL is running on your machine or adjust the credentials in the .env file to match your setup.
+Ensure that PostgreSQL is running on your machine or adjust the credentials in the .env
 ```
 
 ## Environment Configuration
@@ -90,7 +90,12 @@ BASE_URL="localhost"
 NODE_ENV='development'
 HASH_NUMBER=10
 ```
+## Postman Collection
 
+```bash
+#Postman Collection Link
+https://www.postman.com/orange-equinox-926389/workspace/stp/collection/14334683-3f82ccdf-23fa-49f7-9da3-283252385e0d?action=share&creator=14334683
+```
 ## License
 
 Nest is [MIT licensed](LICENSE).
